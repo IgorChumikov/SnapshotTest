@@ -13,10 +13,16 @@
 		AC8D63442A867023001FA5CE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8D63432A867023001FA5CE /* ContentView.swift */; };
 		AC8D63462A867024001FA5CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC8D63452A867024001FA5CE /* Assets.xcassets */; };
 		AC8D63492A867024001FA5CE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC8D63482A867024001FA5CE /* Preview Assets.xcassets */; };
-		AC8D63532A867024001FA5CE /* SnapshotTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8D63522A867024001FA5CE /* SnapshotTestTests.swift */; };
 		AC8D635D2A867024001FA5CE /* SnapshotTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8D635C2A867024001FA5CE /* SnapshotTestUITests.swift */; };
 		AC8D635F2A867024001FA5CE /* SnapshotTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8D635E2A867024001FA5CE /* SnapshotTestUITestsLaunchTests.swift */; };
 		AC8D636D2A86724A001FA5CE /* SnapshotTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8D636C2A86724A001FA5CE /* SnapshotTestCase.swift */; };
+		AC8D63702A8672E2001FA5CE /* Array+Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8D636F2A8672E2001FA5CE /* Array+Images.swift */; };
+		AC8D63722A867314001FA5CE /* Float+Acceptable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8D63712A867314001FA5CE /* Float+Acceptable.swift */; };
+		AC8D63742A867327001FA5CE /* SnapshotTesting+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8D63732A867327001FA5CE /* SnapshotTesting+Extensions.swift */; };
+		AC8D63762A867341001FA5CE /* Snapshotting+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8D63752A867341001FA5CE /* Snapshotting+Extensions.swift */; };
+		AC8D63782A867357001FA5CE /* UITraitCollection+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8D63772A867357001FA5CE /* UITraitCollection+Extensions.swift */; };
+		AC8D637A2A867376001FA5CE /* ViewImageConfig+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8D63792A867376001FA5CE /* ViewImageConfig+Extensions.swift */; };
+		AC8D637C2A867394001FA5CE /* ContentViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8D637B2A867394001FA5CE /* ContentViewTests.swift */; };
 		CC6696421858DA08F0F65AD3 /* Pods_SnapshotTest_SnapshotTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3B3AFFF5CE5A89B98E5ACAB /* Pods_SnapshotTest_SnapshotTestUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -50,11 +56,17 @@
 		AC8D63452A867024001FA5CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC8D63482A867024001FA5CE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AC8D634E2A867024001FA5CE /* SnapshotTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnapshotTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		AC8D63522A867024001FA5CE /* SnapshotTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapshotTestTests.swift; sourceTree = "<group>"; };
 		AC8D63582A867024001FA5CE /* SnapshotTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnapshotTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC8D635C2A867024001FA5CE /* SnapshotTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapshotTestUITests.swift; sourceTree = "<group>"; };
 		AC8D635E2A867024001FA5CE /* SnapshotTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapshotTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		AC8D636C2A86724A001FA5CE /* SnapshotTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapshotTestCase.swift; sourceTree = "<group>"; };
+		AC8D636F2A8672E2001FA5CE /* Array+Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Images.swift"; sourceTree = "<group>"; };
+		AC8D63712A867314001FA5CE /* Float+Acceptable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Float+Acceptable.swift"; sourceTree = "<group>"; };
+		AC8D63732A867327001FA5CE /* SnapshotTesting+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SnapshotTesting+Extensions.swift"; sourceTree = "<group>"; };
+		AC8D63752A867341001FA5CE /* Snapshotting+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Snapshotting+Extensions.swift"; sourceTree = "<group>"; };
+		AC8D63772A867357001FA5CE /* UITraitCollection+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITraitCollection+Extensions.swift"; sourceTree = "<group>"; };
+		AC8D63792A867376001FA5CE /* ViewImageConfig+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewImageConfig+Extensions.swift"; sourceTree = "<group>"; };
+		AC8D637B2A867394001FA5CE /* ContentViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewTests.swift; sourceTree = "<group>"; };
 		C3B3AFFF5CE5A89B98E5ACAB /* Pods_SnapshotTest_SnapshotTestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SnapshotTest_SnapshotTestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E580BDA923378D7FEE75969C /* Pods-SnapshotTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapshotTestTests.release.xcconfig"; path = "Target Support Files/Pods-SnapshotTestTests/Pods-SnapshotTestTests.release.xcconfig"; sourceTree = "<group>"; };
 		EB6602F7DE2E515182D49D5C /* Pods-SnapshotTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapshotTestTests.debug.xcconfig"; path = "Target Support Files/Pods-SnapshotTestTests/Pods-SnapshotTestTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -143,7 +155,8 @@
 			isa = PBXGroup;
 			children = (
 				AC8D636B2A86720A001FA5CE /* Common */,
-				AC8D63522A867024001FA5CE /* SnapshotTestTests.swift */,
+				AC8D636E2A8672C0001FA5CE /* Extensions */,
+				AC8D637B2A867394001FA5CE /* ContentViewTests.swift */,
 			);
 			path = SnapshotTestTests;
 			sourceTree = "<group>";
@@ -163,6 +176,19 @@
 				AC8D636C2A86724A001FA5CE /* SnapshotTestCase.swift */,
 			);
 			path = Common;
+			sourceTree = "<group>";
+		};
+		AC8D636E2A8672C0001FA5CE /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				AC8D636F2A8672E2001FA5CE /* Array+Images.swift */,
+				AC8D63712A867314001FA5CE /* Float+Acceptable.swift */,
+				AC8D63732A867327001FA5CE /* SnapshotTesting+Extensions.swift */,
+				AC8D63752A867341001FA5CE /* Snapshotting+Extensions.swift */,
+				AC8D63772A867357001FA5CE /* UITraitCollection+Extensions.swift */,
+				AC8D63792A867376001FA5CE /* ViewImageConfig+Extensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		D94A2230E8B49AF28FA6149D /* Pods */ = {
@@ -407,8 +433,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC8D63532A867024001FA5CE /* SnapshotTestTests.swift in Sources */,
+				AC8D63782A867357001FA5CE /* UITraitCollection+Extensions.swift in Sources */,
+				AC8D63702A8672E2001FA5CE /* Array+Images.swift in Sources */,
+				AC8D63722A867314001FA5CE /* Float+Acceptable.swift in Sources */,
+				AC8D637A2A867376001FA5CE /* ViewImageConfig+Extensions.swift in Sources */,
+				AC8D63742A867327001FA5CE /* SnapshotTesting+Extensions.swift in Sources */,
+				AC8D637C2A867394001FA5CE /* ContentViewTests.swift in Sources */,
 				AC8D636D2A86724A001FA5CE /* SnapshotTestCase.swift in Sources */,
+				AC8D63762A867341001FA5CE /* Snapshotting+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
