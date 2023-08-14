@@ -12,7 +12,10 @@ import UIKit
 class ContentViewUIkit: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+
+        // Устанавливаем белый цвет фона
+        view.backgroundColor = .white
+
         // Создаем лейбл
         let label = UILabel()
         label.text = "Привет, мир!"
