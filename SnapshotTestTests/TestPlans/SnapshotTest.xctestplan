@@ -10,6 +10,12 @@
   ],
   "defaultOptions" : {
     "codeCoverage" : false,
+    "environmentVariableEntries" : [
+      {
+        "key" : "TZ",
+        "value" : "MSK"
+      }
+    ],
     "targetForVariableExpansion" : {
       "containerPath" : "container:SnapshotTest.xcodeproj",
       "identifier" : "AC8D633D2A867023001FA5CE",
