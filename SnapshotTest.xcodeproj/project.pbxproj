@@ -23,6 +23,8 @@
 		AC8D63782A867357001FA5CE /* UITraitCollection+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8D63772A867357001FA5CE /* UITraitCollection+Extensions.swift */; };
 		AC8D637A2A867376001FA5CE /* ViewImageConfig+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8D63792A867376001FA5CE /* ViewImageConfig+Extensions.swift */; };
 		AC8D637C2A867394001FA5CE /* ContentViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8D637B2A867394001FA5CE /* ContentViewTests.swift */; };
+		AC9DEA962A8A28D6008BABF5 /* ContentViewUIkitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9DEA952A8A28D6008BABF5 /* ContentViewUIkitTests.swift */; };
+		AC9DEA982A8A299B008BABF5 /* ContentViewUIkit.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9DEA972A8A299B008BABF5 /* ContentViewUIkit.swift */; };
 		CC6696421858DA08F0F65AD3 /* Pods_SnapshotTest_SnapshotTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3B3AFFF5CE5A89B98E5ACAB /* Pods_SnapshotTest_SnapshotTestUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -67,6 +69,8 @@
 		AC8D63772A867357001FA5CE /* UITraitCollection+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITraitCollection+Extensions.swift"; sourceTree = "<group>"; };
 		AC8D63792A867376001FA5CE /* ViewImageConfig+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewImageConfig+Extensions.swift"; sourceTree = "<group>"; };
 		AC8D637B2A867394001FA5CE /* ContentViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewTests.swift; sourceTree = "<group>"; };
+		AC9DEA952A8A28D6008BABF5 /* ContentViewUIkitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewUIkitTests.swift; sourceTree = "<group>"; };
+		AC9DEA972A8A299B008BABF5 /* ContentViewUIkit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewUIkit.swift; sourceTree = "<group>"; };
 		C3B3AFFF5CE5A89B98E5ACAB /* Pods_SnapshotTest_SnapshotTestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SnapshotTest_SnapshotTestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E580BDA923378D7FEE75969C /* Pods-SnapshotTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapshotTestTests.release.xcconfig"; path = "Target Support Files/Pods-SnapshotTestTests/Pods-SnapshotTestTests.release.xcconfig"; sourceTree = "<group>"; };
 		EB6602F7DE2E515182D49D5C /* Pods-SnapshotTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapshotTestTests.debug.xcconfig"; path = "Target Support Files/Pods-SnapshotTestTests/Pods-SnapshotTestTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -137,6 +141,7 @@
 			children = (
 				AC8D63412A867023001FA5CE /* SnapshotTestApp.swift */,
 				AC8D63432A867023001FA5CE /* ContentView.swift */,
+				AC9DEA972A8A299B008BABF5 /* ContentViewUIkit.swift */,
 				AC8D63452A867024001FA5CE /* Assets.xcassets */,
 				AC8D63472A867024001FA5CE /* Preview Content */,
 			);
@@ -157,6 +162,7 @@
 				AC8D636B2A86720A001FA5CE /* Common */,
 				AC8D636E2A8672C0001FA5CE /* Extensions */,
 				AC8D637B2A867394001FA5CE /* ContentViewTests.swift */,
+				AC9DEA952A8A28D6008BABF5 /* ContentViewUIkitTests.swift */,
 			);
 			path = SnapshotTestTests;
 			sourceTree = "<group>";
@@ -425,6 +431,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC8D63442A867023001FA5CE /* ContentView.swift in Sources */,
+				AC9DEA982A8A299B008BABF5 /* ContentViewUIkit.swift in Sources */,
 				AC8D63422A867023001FA5CE /* SnapshotTestApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -436,6 +443,7 @@
 				AC8D63782A867357001FA5CE /* UITraitCollection+Extensions.swift in Sources */,
 				AC8D63702A8672E2001FA5CE /* Array+Images.swift in Sources */,
 				AC8D63722A867314001FA5CE /* Float+Acceptable.swift in Sources */,
+				AC9DEA962A8A28D6008BABF5 /* ContentViewUIkitTests.swift in Sources */,
 				AC8D637A2A867376001FA5CE /* ViewImageConfig+Extensions.swift in Sources */,
 				AC8D63742A867327001FA5CE /* SnapshotTesting+Extensions.swift in Sources */,
 				AC8D637C2A867394001FA5CE /* ContentViewTests.swift in Sources */,

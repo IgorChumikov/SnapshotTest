@@ -1,21 +1,21 @@
 //
-//  ContentViewTests.swift
+//  ContentViewUIkitTests.swift
 //  SnapshotTestTests
 //
-//  Created by Игорь Чумиков on 11.08.2023.
+//  Created by Игорь Чумиков on 14.08.2023.
 //
 
 import XCTest
 import SnapshotTesting
 @testable import SnapshotTest
-import SwiftUI
+import UIKit
 
-// MARK: - ContentViewTests
+// MARK: - ContentViewUIkitTests
 
-final class ContentViewTests: SnapshotTestCase {
+final class ContentViewUIkitTests: SnapshotTestCase {
     // MARK: - Properties
 
-    var view: ContentView!
+    var view: ContentViewUIkit!
 
     // MARK: - Overridden Functions
 
@@ -26,10 +26,10 @@ final class ContentViewTests: SnapshotTestCase {
     override func tearDownWithError() throws {
         view = nil
     }
-
-    // MARK: - Functions
     
+    // MARK: - Functions
+
     func testAssertSnapshots() {
-        assertSnapshots(matching: view, as: .screen)
+        assertSnapshots(matching: view)
     }
 }
