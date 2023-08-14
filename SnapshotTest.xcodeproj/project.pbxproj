@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		5C688C967B7A2C92B80DE1C6 /* Pods_SnapshotTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 827CE1DF37071BAC7DEF2431 /* Pods_SnapshotTestTests.framework */; };
 		5DD1D0B52DFA15C23E9784DA /* Pods_SnapshotTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 827DC71127C978A8BF9A6D78 /* Pods_SnapshotTest.framework */; };
+		AC3059882A8A378900B273E6 /* ContentViewTests2.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3059872A8A378900B273E6 /* ContentViewTests2.swift */; };
+		AC30598A2A8A37AB00B273E6 /* ContentViewUIkitTests2.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3059892A8A37AB00B273E6 /* ContentViewUIkitTests2.swift */; };
 		AC8D63422A867023001FA5CE /* SnapshotTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8D63412A867023001FA5CE /* SnapshotTestApp.swift */; };
 		AC8D63442A867023001FA5CE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8D63432A867023001FA5CE /* ContentView.swift */; };
 		AC8D63462A867024001FA5CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC8D63452A867024001FA5CE /* Assets.xcassets */; };
@@ -25,7 +27,6 @@
 		AC8D637C2A867394001FA5CE /* ContentViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8D637B2A867394001FA5CE /* ContentViewTests.swift */; };
 		AC9DEA962A8A28D6008BABF5 /* ContentViewUIkitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9DEA952A8A28D6008BABF5 /* ContentViewUIkitTests.swift */; };
 		AC9DEA982A8A299B008BABF5 /* ContentViewUIkit.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9DEA972A8A299B008BABF5 /* ContentViewUIkit.swift */; };
-		AC9DEAD42A8A3591008BABF5 /* __Snapshots__ in Resources */ = {isa = PBXBuildFile; fileRef = AC9DEAD32A8A3591008BABF5 /* __Snapshots__ */; };
 		CC6696421858DA08F0F65AD3 /* Pods_SnapshotTest_SnapshotTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3B3AFFF5CE5A89B98E5ACAB /* Pods_SnapshotTest_SnapshotTestUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -53,6 +54,8 @@
 		5659245488E3D2BA6079CE12 /* Pods-SnapshotTest-SnapshotTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapshotTest-SnapshotTestUITests.debug.xcconfig"; path = "Target Support Files/Pods-SnapshotTest-SnapshotTestUITests/Pods-SnapshotTest-SnapshotTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		827CE1DF37071BAC7DEF2431 /* Pods_SnapshotTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SnapshotTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		827DC71127C978A8BF9A6D78 /* Pods_SnapshotTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SnapshotTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC3059872A8A378900B273E6 /* ContentViewTests2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewTests2.swift; sourceTree = "<group>"; };
+		AC3059892A8A37AB00B273E6 /* ContentViewUIkitTests2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewUIkitTests2.swift; sourceTree = "<group>"; };
 		AC8D633E2A867023001FA5CE /* SnapshotTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnapshotTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC8D63412A867023001FA5CE /* SnapshotTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapshotTestApp.swift; sourceTree = "<group>"; };
 		AC8D63432A867023001FA5CE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -72,7 +75,6 @@
 		AC8D637B2A867394001FA5CE /* ContentViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewTests.swift; sourceTree = "<group>"; };
 		AC9DEA952A8A28D6008BABF5 /* ContentViewUIkitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewUIkitTests.swift; sourceTree = "<group>"; };
 		AC9DEA972A8A299B008BABF5 /* ContentViewUIkit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewUIkit.swift; sourceTree = "<group>"; };
-		AC9DEAD32A8A3591008BABF5 /* __Snapshots__ */ = {isa = PBXFileReference; lastKnownFileType = folder; path = __Snapshots__; sourceTree = "<group>"; };
 		C3B3AFFF5CE5A89B98E5ACAB /* Pods_SnapshotTest_SnapshotTestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SnapshotTest_SnapshotTestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E580BDA923378D7FEE75969C /* Pods-SnapshotTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapshotTestTests.release.xcconfig"; path = "Target Support Files/Pods-SnapshotTestTests/Pods-SnapshotTestTests.release.xcconfig"; sourceTree = "<group>"; };
 		EB6602F7DE2E515182D49D5C /* Pods-SnapshotTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapshotTestTests.debug.xcconfig"; path = "Target Support Files/Pods-SnapshotTestTests/Pods-SnapshotTestTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -161,11 +163,12 @@
 		AC8D63512A867024001FA5CE /* SnapshotTestTests */ = {
 			isa = PBXGroup;
 			children = (
-				AC9DEAD32A8A3591008BABF5 /* __Snapshots__ */,
 				AC8D636B2A86720A001FA5CE /* Common */,
 				AC8D636E2A8672C0001FA5CE /* Extensions */,
 				AC8D637B2A867394001FA5CE /* ContentViewTests.swift */,
+				AC3059872A8A378900B273E6 /* ContentViewTests2.swift */,
 				AC9DEA952A8A28D6008BABF5 /* ContentViewUIkitTests.swift */,
+				AC3059892A8A37AB00B273E6 /* ContentViewUIkitTests2.swift */,
 			);
 			path = SnapshotTestTests;
 			sourceTree = "<group>";
@@ -330,7 +333,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC9DEAD42A8A3591008BABF5 /* __Snapshots__ in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -449,6 +451,8 @@
 				AC8D63722A867314001FA5CE /* Float+Acceptable.swift in Sources */,
 				AC9DEA962A8A28D6008BABF5 /* ContentViewUIkitTests.swift in Sources */,
 				AC8D637A2A867376001FA5CE /* ViewImageConfig+Extensions.swift in Sources */,
+				AC3059882A8A378900B273E6 /* ContentViewTests2.swift in Sources */,
+				AC30598A2A8A37AB00B273E6 /* ContentViewUIkitTests2.swift in Sources */,
 				AC8D63742A867327001FA5CE /* SnapshotTesting+Extensions.swift in Sources */,
 				AC8D637C2A867394001FA5CE /* ContentViewTests.swift in Sources */,
 				AC8D636D2A86724A001FA5CE /* SnapshotTestCase.swift in Sources */,

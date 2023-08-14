@@ -1,8 +1,8 @@
 //
-//  ContentViewTests.swift
+//  ContentViewTests2.swift
 //  SnapshotTestTests
 //
-//  Created by Игорь Чумиков on 11.08.2023.
+//  Created by Игорь Чумиков on 14.08.2023.
 //
 
 import XCTest
@@ -12,7 +12,7 @@ import SwiftUI
 
 // MARK: - ContentViewTests
 
-final class ContentViewTests: SnapshotTestCase {
+final class ContentViewTests2: SnapshotTestCase {
     // MARK: - Properties
 
     var view: ContentView!
@@ -37,3 +37,4 @@ final class ContentViewTests: SnapshotTestCase {
         assertSnapshots(matching: view, as: .screen)
     }
 }
+

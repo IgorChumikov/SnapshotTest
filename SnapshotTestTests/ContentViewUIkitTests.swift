@@ -19,11 +19,15 @@ final class ContentViewUIkitTests: SnapshotTestCase {
 
     // MARK: - Overridden Functions
 
-    override func setUpWithError() throws {
+    override func setUp() {
+        super.setUp()
+        
         view = .init()
     }
 
-    override func tearDownWithError() throws {
+    override func tearDown() {
+        super.tearDown()
+        
         view = nil
     }
     
